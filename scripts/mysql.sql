@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS zonaprop;
+
 CREATE DATABASE zonaprop;
 
 USE zonaprop;
