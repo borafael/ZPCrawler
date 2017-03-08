@@ -2,7 +2,7 @@
 
 DB_USER=root
 DB_PASS=termopilas
-DB_NAME=zonaprop2
+DB_NAME=zonaprop
 
 BASE_URL=http://www.zonaprop.com.ar/propiedades
 
