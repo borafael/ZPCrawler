@@ -1,3 +1,7 @@
+CREATE DATABASE zonaprop;
+
+USE zonaprop;
+
 CREATE TABLE `avisos` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `createdOn` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
