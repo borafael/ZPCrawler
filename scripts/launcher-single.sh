@@ -11,7 +11,7 @@ do
 		for URL in `cat $FILE`
 		do
 			echo "Crawlin' $URL"
-			./crawler-zonaprop-single.sh $URL $TYPE $BARRIO &
+			./crawler-zonaprop-single.sh "$URL" $TYPE $BARRIO &
 		done
 
 		rm $FILE
