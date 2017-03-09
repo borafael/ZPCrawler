@@ -18,6 +18,10 @@ grep -o /propiedades/.*\.html $TMP_FILE |uniq > $FILE
 
 rm $TMP_FILE
 
+if [ ! -s $FILE ]; then
+        exit 1
+fi
+
 PAGE_NUMBER=2
 
 PAGE_URL=$BASE_URL/$QUERY-pagina-$PAGE_NUMBER.html
