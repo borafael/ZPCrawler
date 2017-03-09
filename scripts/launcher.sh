@@ -9,3 +9,5 @@ do
 		./crawler-zonaprop.sh $TIPO-$OPERACION-$BARRIO-publicado-hace-menos-de-1-dia &
 	done
 done
+
+wait
